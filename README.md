@@ -1,7 +1,7 @@
 # odin-landing-page
 An exercise for theodinproject.com.
 I am making a landing page according to an example given in the task.
-I have to use flex-box and other simple instuments in order to practice and repeat what I have learned so far.
+I have to use flex-box and other simple instruments in order to practice and repeat what I have learned so far.
 
 I really want myself to become better. And in the future I will be thanking myself for not giving up.
 These exercises may look simple for professionals or somebody that has already acquired a job they wanted.
