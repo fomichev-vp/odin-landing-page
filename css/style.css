@@ -1,0 +1,130 @@
+* {
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+}
+body {
+  margin: 0;
+}
+
+/* header */
+
+header {
+  display: flex;
+  justify-content: center;
+}
+header,
+footer {
+  background-color: #1f2937;
+  color: white;
+}
+.header-container {
+  max-width: 80vw;
+  display: flex;
+  flex-flow: column nowrap;
+}
+.header-up,
+.header-low {
+  display: flex;
+}
+.header-up {
+  justify-content: space-between;
+  align-items: center;
+}
+.header-logo {
+  font-size: 24px;
+  color: #f9faf8;
+}
+.links-right {
+  display: flex;
+  justify-content: space-between;
+  gap: 15px;
+}
+.links-right a {
+  text-decoration: none;
+  color: #f9faf8;
+}
+.header-low {
+  display: flex;
+  padding: 50px 0 50px;
+  justify-content: space-between;
+  gap: 60px;
+}
+.header-low div {
+  flex: 1;
+}
+.header-low h1 {
+  font-weight: extra-bold;
+  font-size: 48px;
+  color: #f9faf8;
+}
+.header-low p {
+  font-size: 18px;
+  color: #e5e7eb;
+}
+header .img-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: grey;
+}
+header button {
+  font-size: 18px;
+  color: #f9faf8;
+  background-color: #3882f6;
+  border-radius: 10px;
+  border: none;
+  padding: 5px 20px;
+}
+
+/* main */
+
+main {
+  display: flex;
+  flex-flow: column nowrap;
+}
+.info {
+  text-align: center;
+  padding: 10px 0 50px;
+}
+.info h1 {
+  font-size: 36px;
+  font-weight: extra-bold;
+  color: #1f2937;
+}
+.info p {
+  font-size: 18px;
+  color: #1f2937;
+}
+.info .card-container {
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: center;
+  align-items: center;
+}
+.card {
+  display: flex;
+  flex-flow: column nowrap;
+  align-items: center;
+  width: 200px;
+  margin: 0 40px;
+}
+.card .img-container {
+  width: 150px;
+  height: 150px;
+  border: 2px solid #3882f6;
+  border-radius: 10%;
+}
+
+/* quote */
+
+.quote {
+  background-color: #e5e7eb;
+  font-size: 36px;
+  font-weight: light;
+  font-style: italic;
+  color: #1f2937;
+  text-align: justify;
+  padding: 30px 10vw;
+}
+.quote .signature {
+  text-align: right;
+}
