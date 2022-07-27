@@ -4,7 +4,12 @@
 body {
   margin: 0;
 }
-
+.header-low h1,
+.header-low p,
+.sign-up h1,
+.sign-up p {
+  margin: 10px 0;
+}
 /* header */
 
 header {
@@ -66,7 +71,7 @@ header .img-container {
   justify-content: center;
   background-color: grey;
 }
-header button {
+button {
   font-size: 18px;
   color: #f9faf8;
   background-color: #3882f6;
@@ -89,6 +94,7 @@ main {
   font-size: 36px;
   font-weight: extra-bold;
   color: #1f2937;
+  margin: 20px;
 }
 .info p {
   font-size: 18px;
@@ -127,4 +133,36 @@ main {
 }
 .quote .signature {
   text-align: right;
+}
+.sign-up {
+  box-sizing: border-box;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  width: 80vw;
+  margin: 50px auto;
+  padding: 10px 50px;
+  background-color: #3882f6;
+  color: white;
+  border-radius: 10px;
+}
+.sign-up h1 {
+  font-weight: extra-bold;
+  font-size: 32px;
+}
+.header-low p {
+  font-size: 14px;
+}
+.sign-up button {
+  border: 2px solid white;
+}
+
+/* footer */
+
+footer {
+  background-color: #1f2937;
+  color: #e5e7eb;
+  font-size: 18px;
+  text-align: center;
+  padding: 40px 0;
 }
